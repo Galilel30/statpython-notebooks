@@ -1,1 +1,90 @@
+# Lesson 3 — Python Fundamentals for Statistical Analysis
+
+# Assignment 3: Working with Lists and Dictionaries (100 points)
+
+### Instructions for Students:
+- Do all tasks in a Google Colab notebook.
+- Use comments (#) to explain your code.
+- Submit your work by sharing your Colab link.
+- Total Score: 100 points
+
+## Task 1: Creating Lists (10 points)
+
+- Create a list called ages with the following values:
+
+```python
+[18, 20, 19, 22, 21, 20, 19]
+```
+- Print:
+  - The first element
+  - The last element
+  - The length of the list
+
+## Task 2: Modifying Lists (15 points)
+
+- Add the value 23 to the list.
+- Remove the first occurrence of 20.
+- Replace the second element with 25.
+- Print the updated list.
+
+## Task 3: List Methods and Comprehensions (20 points)
+
+- Using the updated ages list:
+- Find the average age.
+- Sort the list in ascending order.
+- Create a new list using a list comprehension that contains only ages greater than 20.
+
+## Task 4: Working with Dictionaries (20 points)
+
+- Create a dictionary called student with the following keys and values:
+
+```python
+{
+  "name": "Anna",
+  "age": 21,
+  "course": "BS Fisheries",
+  "is_enrolled": True
+}
+```
+- Print:
+  - The student’s name
+  - The student’s age
+  - Add a new key-value pair: "grade": 92
+  - Update "age" to 22
+  - Delete "is_enrolled"
+
+- Print the updated dictionary.
+
+## Task 5: Statistical Example – Survey Data (25 points)
+
+You conducted a survey asking 5 students how many hours they studied last week. Store the data in a dictionary like this:
+
+```python
+study_hours = {
+    "Alice": 12,
+    "Ben": 8,
+    "Carla": 15,
+    "David": 10,
+    "Ella": 9
+}
+```
+
+- Print the average study hours.
+- Print the name of the student who studied the most hours.
+- Print the name of the student who studied the least hours.
+
+## Task 6: Nested Structures (10 points)
+
+Create a list of dictionaries to store survey data of 3 students, each with name, age, and study_hours. Example:
+
+```python
+[
+  {"name": "Anna", "age": 21, "study_hours": 12},
+  {"name": "Ben", "age": 22, "study_hours": 15},
+  {"name": "Carla", "age": 20, "study_hours": 10}
+]
+```
+- Print the average study hours from this nested structure.
+
+
 
